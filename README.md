@@ -30,6 +30,6 @@ Arduino UNO R3 とマイクロサーボ SG92R で、ある装置の押し釦ス�
 ## 使い方
 
 1. Arduino IDE で `AutoPeriodicSwitch/AutoPeriodicSwitch.ino` を開く
-2. ライブラリマネージャから **LowPower** をインストールする（Servo は標準ライブラリ）
+2. ライブラリマネージャから **Low-Power** をインストールする（Servo は標準ライブラリ）
 3. ボード（Arduino Uno）とポートを選んで書き込む
 4. サーボの取り付け状態に合わせて、コード先頭の「設定項目」にある `startAngle`（待機角度）と `targetAngleMove`（押下角度）を微調整する
